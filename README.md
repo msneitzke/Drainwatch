@@ -19,10 +19,10 @@
 
 | Matrícula | Nome Completo | Usuário GitHub | Função Principal | Responsabilidades |
 | --- | --- | --- | --- | --- |
-| [matrícula] | [nome] | @[usuário] | Líder de Hardware e Prototipagem | Escolha dos componentes, montagem do circuito e instalação do sensor |
-| [matrícula] | [nome] | @[usuário] | Desenvolvedor(a) de Firmware e Software | Programação do ESP32, leitura do sensor, envio dos dados e alertas |
-| [matrícula] | [nome] | @[usuário] | Modelagem 3D e Estrutura | Caixa protetora à prova d'água e suporte de fixação no bueiro |
-| [matrícula] | [nome] | @[usuário] | Qualidade e Documentação | Cronograma, testes, validação e relatório |
+| [matrícula] | Guilherme Franco Trevisan Guimaraes | guiguima1208-droid | Líder de Hardware e Prototipagem | Escolha dos componentes, montagem do circuito e instalação do sensor |
+| [matrícula] |  Matheus Schmidt Neitzke | msneitzke | Desenvolvedor(a) de Firmware e Software | Programação do ESP32, leitura do sensor, envio dos dados e alertas |
+| [matrícula] | Guilherme Franco Trevisan Guimaraes | guiguima1208-droid | Modelagem 3D e Estrutura | Caixa protetora à prova d'água e suporte de fixação no bueiro |
+| [matrícula] | Matheus Schmidt Neitzke | msneitzke | Qualidade e Documentação | Cronograma, testes, validação e relatório |
 
 ---
 
@@ -68,10 +68,10 @@ flowchart LR
 | # | Título | Autor / Ano | Link | O que aprendemos e o nosso diferencial |
 | --- | --- | --- | --- | --- |
 | 1 | Designing Early Warning Flood Detection and Monitoring System via IoT | IOP Conference Series: Earth and Environmental Science, 2020 | [Link](https://iopscience.iop.org/article/10.1088/1755-1315/479/1/012016) | Mede o nível da água em um canal de drenagem com sensor ultrassônico e usa três níveis de alerta (seguro, atenção e crítico). Adotamos essa classificação; nosso diferencial é o foco em bueiros urbanos e o alerta por velocidade de subida da água. |
-| 2 | Water Level Monitoring and Flood Early Warning Using Microcontroller With IoT Based Ultrasonic Sensor | [conferir autor], Academia.edu | [Link](https://www.academia.edu/72599522/Water_Level_Monitoring_and_Flood_Early_Warning_Using_Microcontroller_With_IoT_Based_Ultrasonic_Sensor) | Usa NodeMCU ESP8266, ThingSpeak e alertas no Telegram, com erro médio de cerca de 1 cm. Mostrou que a combinação é viável e barata; usamos ESP32 e um sensor à prova d'água, mais adequado à umidade do bueiro. |
-| 3 | Development of a smart sensing unit for LoRaWAN-based IoT flood monitoring and warning system in catchment areas | [conferir autor], ScienceDirect, 2023 | [Link](https://www.sciencedirect.com/science/article/pii/S2667345223000263) | Usa LoRaWAN para cobrir áreas grandes com baixo consumo de energia. Neste semestre usamos Wi-Fi pela simplicidade, mas o artigo aponta o caminho para uma rede com muitos bueiros no futuro. |
+| 2 | Water Level Monitoring and Flood Early Warning Using Microcontroller With IoT Based Ultrasonic Sensor |  Academia.edu | [Link](https://www.academia.edu/72599522/Water_Level_Monitoring_and_Flood_Early_Warning_Using_Microcontroller_With_IoT_Based_Ultrasonic_Sensor) | Usa NodeMCU ESP8266, ThingSpeak e alertas no Telegram, com erro médio de cerca de 1 cm. Mostrou que a combinação é viável e barata; usamos ESP32 e um sensor à prova d'água, mais adequado à umidade do bueiro. |
+| 3 | Development of a smart sensing unit for LoRaWAN-based IoT flood monitoring and warning system in catchment areas | ScienceDirect, 2023 | [Link](https://www.sciencedirect.com/science/article/pii/S2667345223000263) | Usa LoRaWAN para cobrir áreas grandes com baixo consumo de energia. Neste semestre usamos Wi-Fi pela simplicidade, mas o artigo aponta o caminho para uma rede com muitos bueiros no futuro. |
 | 4 | Pluviômetros Automáticos (Rede de Monitoramento do Cemaden) | Cemaden / MCTI | [Link](http://www2.cemaden.gov.br/pluviometros-automatico/) | Referência brasileira de monitoramento em tempo real para alertas de desastres. O Cemaden mede a chuva; o DrainWatch mede o efeito dela dentro da drenagem de cada rua, complementando esse monitoramento. |
-| 5 | Computer Vision and IoT-Based Sensors in Flood Monitoring and Mapping: A Systematic Review | [conferir autor e ano], PMC | [Link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6891459/) | Revisão que compara técnicas de visão computacional e sensores IoT para monitorar enchentes. Ajudou a justificar a escolha do sensor ultrassônico, mais barato e simples que câmeras para um protótipo. |
+| 5 | Computer Vision and IoT-Based Sensors in Flood Monitoring and Mapping: A Systematic Review | PMC | [Link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6891459/) | Revisão que compara técnicas de visão computacional e sensores IoT para monitorar enchentes. Ajudou a justificar a escolha do sensor ultrassônico, mais barato e simples que câmeras para um protótipo. |
 
 ---
 
