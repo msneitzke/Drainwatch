@@ -79,8 +79,8 @@ flowchart LR
 
 | Etapa | Prazo | Entregas | Responsável | Status |
 | --- | --- | --- | --- | --- |
-| M1: Definição e Pesquisa | Mês 1 | Escopo definido, requisitos e referências | [nome] | Concluído |
-| M2: Arquitetura e Lista de Materiais | Mês 2 | Diagrama de blocos, esquema do circuito e lista de compras | [nome] | Em andamento |
+| M1: Definição e Pesquisa | Mês 1 | Escopo definido, requisitos e referências | Guilherme e Matheus | Concluído |
+| M2: Arquitetura e Lista de Materiais | Mês 2 | Diagrama de blocos, esquema do circuito e lista de compras | Guilherme e Matheus | Em andamento |
 | M3: Protótipo Alpha | Mês 3 | Testes do sensor ultrassônico e do envio de dados pelo ESP32 | [nome] | Não iniciado |
 | M4: Integração | Mês 4 | Circuito, caixa protetora, painel e alertas funcionando juntos | Equipe | Não iniciado |
 | M5: Validação e Banca Final | Mês 5 | Protótipo testado em bueiro simulado e relatório final | Equipe | Não iniciado |
